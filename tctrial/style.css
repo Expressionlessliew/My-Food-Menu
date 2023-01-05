@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./img/design3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    padding: 0% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;    
+}
+.title{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin: 1rem;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+.header{
+    padding-left: 165px;
+    color: white;
+}
+.header .hello{
+    padding-top: 60px;
+    letter-spacing: 2px;
+}
+.header h1{
+    font-weight: bold;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+.header p{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.header h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+.header .social{
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
