@@ -6,7 +6,6 @@
 
 body {
   font-family: "Times New Roman", Times, serif;
-  background-image: ;
 }
 
 .menu {
@@ -94,12 +93,6 @@ body {
   background-color: rgb(253, 30, 79);
   border-radius: 15px;
   color: rgb(0, 0, 0);
-}
-
-.address {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-  grid-column: 1/-1;
 }
 
 div a {
